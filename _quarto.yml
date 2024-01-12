@@ -1,0 +1,54 @@
+project:
+  type: "website"
+
+website:
+  title: "Molly Hardman"
+  site-url: "https://mollyhardman.github.io"
+  repo-url: &repo-url "https://github.com/mollyhardman/mollyhardman.github.io"
+  repo-actions: ["edit", "issue"]
+
+  navbar:
+    right:
+      - text: "Our garden"
+        menu:
+          - text: "2024"
+            file: "garden/2024.md"
+      - icon: "github"
+        aria-label: "GitHub"
+        href: "https://github.com/mollyhardman"
+
+  page-footer:
+    left: "© Molly Hardman 2024"
+    right: "Built with [Quarto](https://quarto.org/) ❤️"
+
+
+format:
+  html:
+    theme:
+      light: ["flatly", "styles.scss"]
+      dark: ["darkly", "styles.scss"]
+    # Turn on emoji shortcodes:
+    from: "markdown+emoji"
+
+    toc: true
+
+# Enable comments by default
+# IMPORTANT: Set `comments: false` on pages like indexes!
+# TODO: See Giscus docs, authorize apps, uncomment, and fill in TODOs below!
+# comments:
+#   giscus:
+#     repo: "mollyhardman/mollyhardman.github.io"
+#     repo-id: "TODO"
+#     category: "Other pages"
+#     category-id: "TODO"
+#     mapping: "pathname"
+#     reactions-enabled: true
+#     input-position: "top"
+#     # TODO: In Quarto 1.4, light/dark themes are supported
+#     # https://github.com/quarto-dev/quarto-cli/issues/4820
+#     # theme:
+#     #   light: "preferred_color_scheme"
+#     #   dark: "noborder_dark"
+#     theme: "light"
+#     language: "en"
+#     loading: "lazy"

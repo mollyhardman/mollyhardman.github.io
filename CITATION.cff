@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this website using these metadata."
+
+title: "Molly Hardman's personal website"
+# TODO: https://github.com/citation-file-format/citation-file-format/issues/498
+# type: "presentation"
+# doi: "10.5281/zenodo.TODO"
+
+version: "2024.1.12"
+date-released: "2024-01-12"
+
+contact:
+  - name: "Molly Hardman"
+    # TODO
+    # email: "molly@example.com"
+keywords:
+  - "horticulture"
+
+url: "https://mollyhardman.github.io"
+repository-code: "https://github.com/mollyhardman/mollyhardman.github.io"
+
+authors:
+  - family-names: "Hardman"
+    given-names: "Molly"
+    orcid: "https://orcid.org/0000-0003-2043-5215"
+    website: "https://github.com/mollyhardman"
