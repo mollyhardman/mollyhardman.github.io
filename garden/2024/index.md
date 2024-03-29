@@ -1,5 +1,6 @@
 ---
-title: "Our 2024 garden"
+title: "2024"
+subtitle: "Our 2024 garden"
 ---
 
 :::{.callout-note}
